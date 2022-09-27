@@ -1,0 +1,21 @@
++ Determine analysis dates and times
++ Assemble relevant GTFS datasets and times
++ Calculate travel time matrices for all dates and times
++ Assemble a dataset of hospitals (closest)
+- Assemble a dataset of (public) schools (closest)
+- Assemble a dataset of universities (closest? Seats?)
+- Assemble a dataset of grocery stores (nth closest)
+- Assemble a dataset of daycares?
+- Assemble a dataset of jobs?
+- Decide on an admittance function
+- Run access calculations on all travel times
+	- People
+	- Hospitals
+	- Universities
+	- Elementary Schools
+	- Grocery Stores
+	- Daycares
+	- Jobs
+- Generate report figures
+- Generate report maps
+- Write up report
