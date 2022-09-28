@@ -10,7 +10,7 @@ centroids = gpd.read_file("../data/cgy_service_changes.gpkg", layer='hex_centroi
 print(f"There are {centroids.shape[0]} centroids")
 
 print("Loading Runs to Execute")
-runs = pd.read_csv('../data/run_reference.csv')
+runs = pd.read_csv('../data/run_reference_2.csv')
 runs['datetime'] = pd.to_datetime(runs['datetime'])
 print(f"This will generate {runs.shape[0]} matrices.")
 gtfs_file = 'none'
